@@ -35,7 +35,7 @@ class OnboardingPage extends StatelessWidget {
               ),
               const Spacer(),
               Center(
-                child: Container(
+                child: SizedBox(
                   width: 200,
                   height: 45,
                   child: TextButton(
@@ -57,7 +57,7 @@ class OnboardingPage extends StatelessWidget {
               ),
               const SizedBox(height: 16),
               Center(
-                child: Container(
+                child: SizedBox(
                   width: 200,
                   height: 45,
                   child: TextButton(
